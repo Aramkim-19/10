@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rain and Snow</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="back.css" />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: rgb(29,105,154);
+        background: linear-gradient(0deg, rgba(29,105,154,0.5382746848739496) 0%, rgba(188,244,255,0.3253895308123249) 100%);
+      }
+
+      canvas,
+      img,
+      div {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        pointer-events: none;
+      } /* 캔버스를 클릭 못하게 */
+
+      .cursor {
+        pointer-events: auto;
+        cursor: pointer;
+      }
+
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        z-index: 3;
+      }
+
+      .modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+        height: 100px;
+        padding: 25px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .image:hover, #image31:hover, #image32:hover, #image33:hover, 
+      #image34:hover, #image35:hover, #image35:hover, #image37:hover, 
+      #image38:hover, #image39:hover, #image40:hover, #image41:hover,
+      #image42:hover, #image43:hover, #image44:hover, #image45:hover,
+      #image46:hover, #image47:hover, #image48:hover, #image49:hover,
+      #image50:hover, #image51:hover, #image52:hover, #image53:hover                
+      {z-index: 9999; opacity: 100%;}
+
+      #white-background {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(255, 255, 255, 1);
+        display: none;
+        z-index: 9999;
+      }
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <!-- 다시마 배경 -->
+    
+ 
+    <img src= "da/bb 33.png"  class="b_3 clickable-image cursor random " height="1200" id="image31">
+    <img src= "da/bb 2.png"  class="b_4 clickable-image cursor random" height="800" id="image32">
+    <img src= "da/bb 3.png"  class="b_5 clickable-image cursor random" height="950" id="image33">
+    <img src= "da/bb 5.png"  class="b_6 clickable-image cursor random" height="1300" id="image34">
+    <img src= "da/bb 6.png"  class="b_7 clickable-image cursor random" height="1000" id="image35">
+    <img src= "da/bb 7.png"  class="b_8 clickable-image cursor random" height="750" id="image36">
+    <img src= "da/bb 8.png"  class="b_9 clickable-image cursor random" height="900" id="image37">
+    <img src= "da/bb 10.png"  class="b_10 clickable-image cursor random" height="850" id="image38">
+    <img src= "da/bb 12.png"  class="b_11 clickable-image cursor random" height="700" id="image39">
+    <img src= "da/bb 13.png"  class="b_12 clickable-image cursor random" height="850" id="image40">
+    <img src= "da/bb 14.png"  class="b_13 clickable-image cursor random" height="900" id="image41"> 
+    <img src= "da/bb 16.png"  class="b_14 clickable-image cursor random" height="1000" id="image42"> 
+    <img src= "da/bb 17.png"  class="b_15 clickable-image cursor random" height="830" id="image43"> 
+    <img src= "da/bb 19.png"  class="b_16 clickable-image cursor random" height="1000" id="image44"> 
+    <img src= "da/bb 22.png"  class="b_17 clickable-image cursor random" height="650" id="image45"> 
+    <img src= "da/bb 23.png"  class="b_18 clickable-image cursor random" height="1100" id="image46"> 
+    <img src= "da/bb 24.png"  class="b_19 clickable-image cursor random" height="680" id="image47"> 
+    <img src= "da/bb 27.png"  class="b_20 clickable-image cursor random" height="880" id="image48"> 
+    <img src= "da/bb 29.png"  class="b_21 clickable-image cursor random" height="950" id="image49"> 
+    <img src= "da/bb 30.png"  class="b_22 clickable-image cursor random" height="980" id="image50"> 
+    <img src= "da/bb 31.png"  class="b_23 clickable-image cursor random" height="760" id="image51"> 
+    <img src= "da/bb 33.png"  class="b_24 clickable-image cursor random" height="1000" id="image52"> 
+    <img src= "da/bb 34.png"  class="b_25 clickable-image cursor random" height="950" id="image53"> 
+
+
+
+
+    <script src="san.js"></script>
+  
+    
+    
+ <div class="g1">
+      <img src="da/bb 34.png" class="clickable-image cursor no_6 random"id="image3"height="170"/>
+      <img src="da/bb 33.png"class="clickable-image cursor no_1 random" id="image4"width="50"/>
+      <img src="da/bb 31.png" class="clickable-image cursor no_2 random" id="image5" height="250"/>
+      <img src="da/bb 30.png" class="clickable-image cursor no_3 random" id="image6" height="180"/>
+      <img src="da/bb 29.png" class="clickable-image cursor no_4 random" id="image7" height="280"/>
+      <img src="da/bb 27.png" class="clickable-image cursor no_5 random" id="image8" height="120"/>
+      <img src="da/bb 24.png"class="clickable-image cursor no_7 random"id="image9" height="210"/>
+    </div>
+
+<div class="g2">
+    <img src="da/bb 23.png" class="clickable-image cursor no_1 random" id="image10" height="150" /> 
+    <img src="da/bb 22.png" class="clickable-image cursor no_2 random" id="image11" width="85"  />
+    <img src="da/bb 19.png" class="clickable-image cursor no_3 random" id="image12" height="200"/>
+    <img src="da/bb 17.png" class="clickable-image cursor no_4 random" id="image13" height="270"/> 
+    <img src="da/bb 16.png" class="clickable-image cursor no_5 random"id="image14" height="120"/> 
+    <img src="da/bb 14.png" class="clickable-image cursor no_6 random" id="image15" height="170"/> 
+    <img src="da/bb 13.png" class="clickable-image cursor no_8 random"id="image16" height="140"/> 
+    <img src="da/bb 12.png" class="clickable-image cursor no_9 random" id="image17" height="230"/> 
+  </div>  
+
+    <!-- <img src="da/b1.png" class="clickable-image cursor" id="image1" />
+    <img src="da/b2.png" class="clickable-image cursor" id="image2" /> -->
+
+    <!-- <a href="index2.html">
+    <img src="da/b3.png" class="clickable-image cursor" id="image3" width="300"/>
+    </a>  -->
+
+    <!-- 다른 이미지 추가 가능 -->
+
+    <div id="customAlert" class="modal">
+      <div class="modal-content"></div>
+    </div>
+
+    <!-- 글리치 -->
+    <!-- <div class="glitch">
+      <div class="glitch_content"></div>
+      <div class="glitch_content"></div>
+      <div class="glitch_content"></div>
+      <div class="glitch_content"></div>
+      <div class="glitch_content"></div>
+    </div> -->
+
+
+    <canvas id="rainCanvas"></canvas>
+    <canvas id="snowCanvas"></canvas>
+
+    <script src="new.js"></script>
+    <script src="hide.js"></script>
+    <script src="rain.js"></script>
+    <script src="snow.js"></script>
+
+
+    <div id="white-background"></div>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+
+
+@keyframes b_1 { 0% { left: ; opacity: 100%; transform: rotate(-10deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(10deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(-12deg);}}
+
+@keyframes b_2 { 0% { left: ; opacity: 100%; transform: rotate(10deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(-10deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(10deg);}}   
+                
+                
+@keyframes b_3 { 0% { left: ; opacity: 100%; transform: rotate(5deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(-5deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(5deg); }}     
+                
+@keyframes b_4 { 0% { left: ; opacity: 100%; transform: rotate(-17deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(17deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(-17deg);}} 
+               
+@keyframes b_5 { 0% { left: ; opacity: 100%; transform: rotate(-9deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(9deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(-9deg);}} 
+
+@keyframes b_6 { 0% { left: ; opacity: 100%; transform: rotate(14deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(-14deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(14deg);}} 
+
+@keyframes b_7 { 0% { left: ; opacity: 100%; transform: rotate(12deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(-14deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(15deg);}} 
+        
+@keyframes b_8 { 0% { left: ; opacity: 100%; transform: rotate(-16deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(14deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(-15deg);}} 
+               
+@keyframes b_9 { 0% { left: ; opacity: 100%; transform: rotate(-18deg); } 
+                50%{ left: ; opacity: 100%; transform: rotate(14deg);   }
+                100% { left: ; opacity: 100%; transform: rotate(-18deg);}} 
+                
+
+
+@keyframes a1 { 0% {left: 0;} 50% { left: 7%;} 100% {left: 0;}}
+@keyframes a2 { 0% {left: 0;} 50% { left: -10%;} 100% {left:  0%;}}
+@keyframes a3 { 0% {left: 0;} 50% { left: 5%;} 100% {left:  0%;}}
+@keyframes a4 { 0% {left: 0;} 50% { left: -10%;} 100% {left:  0%;}}
+
+@keyframes bb1 { 0% { left: 70%; opacity: 85%;  transform: rotate(5deg); }  50%{ left: 100%; opacity: 0%; transform: rotate(-5deg);}
+                100% { left: 70%; opacity: 85%;  transform: rotate(5deg); }}
+@keyframes bb2 { 0% { left: 20%; opacity: 70%;  transform: rotate(5deg); }  50%{ left: 35%; opacity: 0%; transform: rotate(-5deg);}
+                100% { left: 10%; opacity: 70%;  transform: rotate(5deg); }}
+@keyframes bb3 { 0% { left: 60%; opacity: 50%;  transform: rotate(-5deg); }  50%{ left: 50%; opacity: 0%; transform: rotate(5deg);}
+                100% { left: 70%; opacity: 50%;   transform: rotate(-5deg);}}   
+@keyframes bb4 { 0% { left: 60%; opacity: 0%; transform: rotate(5deg); }  50%{ left: 50%; opacity: 60%;transform: rotate(-5deg); }
+                100% { left: 70%; opacity: 10%; transform: rotate(5deg); }}     
+@keyframes bb5 { 0% { left: -3%; opacity: 10%; transform: rotate(5deg); }  50%{ left: 7%; opacity: 70%;transform: rotate(-5deg); }
+                100% { left: 0%; opacity: 10%; transform: rotate(5deg); }}  
+@keyframes bb6 { 0% { left: 7%; opacity: 85%; transform: rotate(5deg); }  50%{ left: -7%; opacity: 0%;transform: rotate(-5deg); }
+                100% { left: 5%; opacity: 85%; transform: rotate(5deg); }} 
+@keyframes bb7 { 0% { left: 20%; opacity: 85%; transform: rotate(7deg); }  50%{ left: 20%; opacity: 0%;transform: rotate(-7deg); }
+                100% { left: 20%; opacity: 85%; transform: rotate(7deg); }} 
+@keyframes bb8 { 0% { left: 55%; opacity: 30%; transform: rotate(7deg); }  50%{ left: 70%; opacity: 70%;transform: rotate(-7deg); }
+                100% { left: 55%; opacity: 30%; transform: rotate(7deg); }} 
+
+@keyframes bb9 { 0% { left: 85%; opacity: 85%; transform: rotate(7deg); }  50%{ left: 60%; opacity: 30%;transform: rotate(-7deg); }
+                100% { left: 85%; opacity: 85%; transform: rotate(7deg); }} 
+@keyframes bb10 { 0% { left: 69%; opacity: 85%; transform: rotate(7deg); }  50%{ left: 85%; opacity: 30%;transform: rotate(-7deg); }
+                100% { left: 69%; opacity: 85%; transform: rotate(7deg); }} 
+@keyframes bb11 { 0% { left: 30%; opacity: 85%; transform: rotate(-10deg); }  50%{ left: 15%; opacity: 30%;transform: rotate(10deg); }
+                100% { left: 30%; opacity: 85%; transform: rotate(-10deg); }} 
+@keyframes bb12 { 0% { left: 40%; opacity: 20%; transform: rotate(0deg); }  50%{ left: 80%; opacity: 60%;transform: rotate(0deg); }
+                100% { left: 40%; opacity: 20%; transform: rotate(0deg); }} 
+@keyframes bb13 { 0% { left: 20%; opacity: 10%; transform: rotate(8deg); }  50%{ left: 50%; opacity: 60%;transform: rotate(-8deg); }
+                100% { left: 20%; opacity: 10%; transform: rotate(8deg); }} 
+@keyframes bb14 { 0% { left: 43%; opacity: 30%; transform: rotate(12deg); }  50%{ left: 73%; opacity: 70%;transform: rotate(-12deg); }
+                100% { left: 43%; opacity: 30%; transform: rotate(12deg); }} 
+@keyframes bb15 { 0% { left: 33%; opacity: 60%; transform: rotate(-12deg); }  50%{ left: 13%; opacity: 20%;transform: rotate(12deg); }
+                100% { left: 33%; opacity: 60%; transform: rotate(-12deg); }} 
+@keyframes bb16 { 0% { left: 32%; opacity: 75%; transform: rotate(9deg); }  50%{ left: 13%; opacity: 20%;transform: rotate(-15deg); }
+                100% { left: 32%; opacity: 75%; transform: rotate(9deg); }} 
+@keyframes bb17 { 0% { left: 52%; opacity: 20%; transform: rotate(9deg); }  50%{ left: 73%; opacity: 70%;transform: rotate(-15deg); }
+                100% { left: 52%; opacity: 20%; transform: rotate(9deg); }} 
+@keyframes bb18 { 0% { left: 72%; opacity: 30%; transform: rotate(-9deg); }  50%{ left: 23%; opacity: 70%;transform: rotate(15deg); }
+                100% { left: 72%; opacity: 30%; transform: rotate(-9deg); }}
+@keyframes bb19 { 0% { left: -5%; opacity: 20%; transform: rotate(-9deg); }  50%{ left: 63%; opacity: 70%;transform: rotate(15deg); }
+                100% { left: -5%; opacity: 20%; transform: rotate(-9deg); }}
+@keyframes bb20 { 0% { left: 110%; opacity: 20%; transform: rotate(15deg); }  50%{ left: 33%; opacity: 70%;transform: rotate(-15deg); }
+                100% { left: 110%; opacity: 20%; transform: rotate(15deg); }}
+@keyframes bb21 { 0% { left: 34%; opacity: 75%; transform: rotate(0deg); }  50%{ left: -30%; opacity: 20%;transform: rotate(0deg); }
+                100% { left: 34%; opacity: 75%; transform: rotate(0deg); }}
+@keyframes bb22 { 0% { left: 44%; opacity: 60%; transform: rotate(0deg); }  50%{ left: 20%; opacity: 20%;transform: rotate(0deg); }
+                100% { left: 44%; opacity: 60%; transform: rotate(0deg); }}
+@keyframes bb23 { 0% { left: 54%; opacity: 67%; transform: rotate(0deg); }  50%{ left: 100%; opacity: 20%;transform: rotate(0deg); }
+                100% { left: 54%; opacity: 67%; transform: rotate(0deg); }}
+
+.no_1 { top: 400px; left: 1400px; animation: b_5 11s forwards infinite; }
+.no_2 { top: 300px; left: 1350px; animation: b_2 10s forwards infinite; }
+.no_3 { top: 350px; left: 1200px; animation: b_4 15s forwards infinite; }
+.no_4 { top: 230px; left: 1140px; animation: b_6 19s forwards infinite; }
+.no_5 { top: 420px; left: 1250px; animation: b_7 13s forwards infinite; }
+.no_6 { top: 380px; left: 1280px; animation: b_1 6s forwards infinite; }  
+.no_7 { top: 320px; left: 1320px; animation: b_8 9s forwards infinite; } 
+.no_8 { top: 400px; left: 1080px; animation: b_9 17s forwards infinite; } 
+.no_9 { top: 310px; left: 1100px; animation: b_8 12s forwards infinite; } 
+
+.no_11 { top: 570px; left: 800px; animation: b_5 11s forwards infinite; }
+.no_12 { top: 580px; left: 750px; animation: b_2 10s forwards infinite; }
+.no_13 { top: 590px; left: 600px; animation: b_4 15s forwards infinite; }
+.no_14 { top: 550px; left: 540px; animation: b_6 19s forwards infinite; }
+.no_15 { top: 560px; left: 650px; animation: b_7 13s forwards infinite; }
+.no_16 { top: 550px; left: 680px; animation: b_1 6s forwards infinite; }  
+.no_17 { top: 570px; left: 520px; animation: b_8 9s forwards infinite; } 
+.no_18 { top: 590px; left: 380px; animation: b_9 17s forwards infinite; } 
+.no_19 { top: 540px; left: 400px; animation: b_8 12s forwards infinite; } 
+
+.no_111 { top: 170px; left: 600px; animation: b_5 11s forwards infinite; }
+.no_112 { top: 170px; left: 550px; animation: b_2 10s forwards infinite; }
+.no_113 { top: 170px; left: 400px; animation: b_4 15s forwards infinite; }
+.no_114 { top: 150px; left: 340px; animation: b_6 19s forwards infinite; }
+.no_115 { top: 170px; left: 450px; animation: b_7 13s forwards infinite; }
+.no_116 { top: 170px; left: 480px; animation: b_1 6s forwards infinite; }  
+.no_117 { top: 170px; left: 320px; animation: b_8 9s forwards infinite; } 
+.no_118 { top: 170px; left: 180px; animation: b_9 17s forwards infinite; } 
+.no_119 { top: 150px; left: 200px; animation: b_8 12s forwards infinite; } 
+
+.no_1110 { top: 70px; left: 1600px; animation: b_5 11s forwards infinite; }
+.no_1120 { top: 70px; left: 1550px; animation: b_2 10s forwards infinite; }
+.no_1130 { top: 70px; left: 1400px; animation: b_4 15s forwards infinite; }
+.no_1140 { top: 50px; left: 1340px; animation: b_6 19s forwards infinite; }
+.no_1150 { top: 70px; left: 1450px; animation: b_7 13s forwards infinite; }
+.no_1160 { top: 70px; left: 1480px; animation: b_1 6s forwards infinite; }  
+.no_1170 { top: 70px; left: 1320px; animation: b_8 9s forwards infinite; } 
+.no_1180 { top: 70px; left: 1180px; animation: b_9 17s forwards infinite; } 
+.no_1190 { top: 50px; left: 1200px; animation: b_8 12s forwards infinite; } 
+
+.b_3 { top: 50px;  animation: bb1 15s forwards infinite; } 
+.b_4 { top: 140px;  animation: bb2 18s forwards infinite; } 
+.b_5 { top: 110px;  animation: bb3 21s forwards infinite; } 
+.b_6 { top: -100px;  animation: bb4 24s forwards infinite; } 
+.b_7 { top: 50px;  animation: bb5 27s forwards infinite; } 
+.b_8 { top: 220px;  animation: bb6 13s forwards infinite; } 
+.b_9 { top: 20px;  animation: bb7 19s forwards infinite; } 
+.b_10 { top: 110px;  animation: bb8 13s forwards infinite; } 
+.b_11 { top: 270px;  animation: bb9 20s forwards infinite; } 
+.b_12 { top: 170px;  animation: bb10 11s forwards infinite; } 
+.b_13 { top: 70px;  animation: bb11 12s forwards infinite; }
+.b_14 { top: 50px;  animation: bb12 15s forwards infinite; }
+.b_15 { top: 170px;  animation: bb13 17s forwards infinite; }
+.b_16 { top: 50px;  animation: bb14 25s forwards infinite; }
+.b_17 { top: 320px;  animation: bb15 22s forwards infinite; }
+.b_18 { top: -100px;  animation: bb16 32s forwards infinite; }
+.b_19 { top: 320px;  animation: bb17 12s forwards infinite; }
+.b_20 { top: 90px;  animation: bb18 29s forwards infinite; }
+.b_21 { top: 40px;  animation: bb19 33s forwards infinite; }
+.b_22 { top: 100px;  animation: bb20 38s forwards infinite; }
+.b_23 { top: 220px;  animation: bb21 23s forwards infinite; }
+.b_24 { top: 50px;  animation: bb22 31s forwards infinite; }
+
+.b_25 { top: 100px;  animation: bb23 16s forwards infinite; }
+
+/* 그룹 모션 */
+.g1 { animation: a1 15s forwards infinite;}
+.g2 { animation: a2 30s forwards infinite;}
+.g3 { animation: a1 12s forwards infinite;}
+.g4 { animation: a2 15s forwards infinite;}
+.g5 { animation: a4 22s forwards infinite;}
+.g6 { animation: a3 27s forwards infinite;}
+.g7 { animation: a3 32s forwards infinite;}
+.g8 { animation: a4 38s forwards infinite;}
+
+
+
+
+
+
